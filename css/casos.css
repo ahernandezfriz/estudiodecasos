@@ -17,8 +17,6 @@
 /*
  Pantalla Preload
  =============================================================================*/
-/* Estilos para el preloader */
-
 .preloader > div img {
 	display: block;
 	height: 100px;
@@ -48,6 +46,7 @@
 	background-color: var(--color-accent);
 	color: #ffffff;
   }
+  
 
 /* Estilos para el contenido */
 #content {

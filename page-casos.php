@@ -31,7 +31,7 @@
 	
 	
 		<!-- Preloader -->
-		<section class="preloader PAGE-ASIGNATURA">
+		<section class="preloader">
 		<?php if ( have_posts() ): ?>
 			<?php while( have_posts() ): the_post(); ?>
 			<?php $casos_pages = get_pages( array( 'child_of' => get_the_ID(), 'parent' => get_the_ID() ) ); ?>
